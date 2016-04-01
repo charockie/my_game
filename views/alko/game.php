@@ -15,7 +15,7 @@ $this->title = 'Game';
 
     <h4><?= isset($message) ? '<p class="alert-danger">'.Html::encode($message).'</p>' : '<p class="alert-success">Выберите число от 1 до 3</p>' ?></h4>
 
-    <h3>Ваше здоровье</h3>
+    <h3>Здоровье</h3>
     <ul class="list-inline">
         <li>Ты: <?= Html::encode($player) ?> HP; <p class="alert-danger"><?= isset($pmessage) ? Html::encode($pmessage).';' : '' ?></p></li>
         <li>Алкоголик: <?= Html::encode($computer) ?> HP; <p class="alert-danger"><?= isset($cmessage) ? Html::encode($cmessage).';' : '' ?></p></li>
